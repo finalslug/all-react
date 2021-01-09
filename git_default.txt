@@ -1,0 +1,237 @@
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (feature/state)
+$ git branch
+  feature/login
+* feature/state
+  master
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (feature/state)
+$ git checkout master
+Switched to branch 'master'
+A       .eslintcache
+A       all-react.zip
+M       package-lock.json
+M       package.json
+M       public/index.html
+D       src/App.css
+M       src/App.js
+A       src/App.md
+D       src/App.test.js
+A       src/Routes.js
+A       src/Routes.md
+D       src/index.css
+M       src/index.js
+A       src/index.md
+D       src/logo.svg
+A       src/pages/Login/Login.css
+A       src/pages/Login/Login.js
+A       src/pages/Login/Login.md
+A       src/pages/Main/Main.css
+A       src/pages/Main/Main.js
+A       src/pages/Main/Main.md
+D       src/reportWebVitals.js
+D       src/setupTests.js
+A       src/styles/common.scss
+A       src/styles/reset.scss
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$ git branch
+  feature/login
+  feature/state
+* master
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$ git branch -d feature/login
+Deleted branch feature/login (was d3efeea).
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$ git branch
+  feature/state
+* master
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$ git branch -d feature/state
+Deleted branch feature/state (was d3efeea).
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$ git status
+On branch master        
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .eslintcache
+        new file:   all-react.zip
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   public/index.html
+        deleted:    src/App.css
+        modified:   src/App.js
+        new file:   src/App.md
+        deleted:    src/App.test.js
+        new file:   src/Routes.js
+        new file:   src/Routes.md
+        deleted:    src/index.css
+        modified:   src/index.js
+        new file:   src/index.md
+        deleted:    src/logo.svg
+        new file:   src/pages/Login/Login.css
+        new file:   src/pages/Login/Login.js
+        new file:   src/pages/Login/Login.md
+        new file:   src/pages/Main/Main.css
+        new file:   src/pages/Main/Main.js
+        new file:   src/pages/Main/Main.md
+        deleted:    src/reportWebVitals.js
+        deleted:    src/setupTests.js
+        new file:   src/styles/common.scss
+        new file:   src/styles/reset.scss
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .eslintcache
+        modified:   src/Routes.js
+        modified:   src/Routes.md
+        modified:   src/pages/Login/Login.js
+        modified:   src/pages/Login/Login.md
+        modified:   src/pages/Main/Main.js
+        modified:   src/pages/Main/Main.md
+
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$ git branch
+* master
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$  git add .
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .eslintcache
+        new file:   all-react.zip
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   public/index.html
+        deleted:    src/App.css
+        modified:   src/App.js
+        new file:   src/App.md
+        deleted:    src/App.test.js
+        new file:   src/Routes.js
+        new file:   src/Routes.md
+        deleted:    src/index.css
+        modified:   src/index.js
+        new file:   src/index.md
+        deleted:    src/logo.svg
+        new file:   src/pages/Login/Login.css
+        new file:   src/pages/Login/Login.js
+        new file:   src/pages/Login/Login.md
+        new file:   src/pages/Main/Main.css
+        new file:   src/pages/Main/Main.js
+        new file:   src/pages/Main/Main.md
+        deleted:    src/reportWebVitals.js
+        deleted:    src/setupTests.js
+        new file:   src/styles/common.scss
+        new file:   src/styles/reset.scss
+
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$ git commit -m "Add: default setting done"
+[master 8420ede] Add: default setting done
+ 25 files changed, 1045 insertions(+), 177 deletions(-)
+ create mode 100644 .eslintcache
+ create mode 100644 all-react.zip
+ rewrite public/index.html (66%)
+ delete mode 100644 src/App.css
+ rewrite src/App.js (92%)
+ create mode 100644 src/App.md
+ delete mode 100644 src/App.test.js
+ create mode 100644 src/Routes.js
+ create mode 100644 src/Routes.md
+ delete mode 100644 src/index.css
+ rewrite src/index.js (99%)
+ create mode 100644 src/index.md
+ delete mode 100644 src/logo.svg
+ create mode 100644 src/pages/Login/Login.css
+ create mode 100644 src/pages/Login/Login.js
+ create mode 100644 src/pages/Login/Login.md
+ create mode 100644 src/pages/Main/Main.css
+ create mode 100644 src/pages/Main/Main.js
+ create mode 100644 src/pages/Main/Main.md
+ delete mode 100644 src/reportWebVitals.js
+ delete mode 100644 src/setupTests.js
+ create mode 100644 src/styles/common.scss
+ create mode 100644 src/styles/reset.scss
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (master)
+$ git branch -M main
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git remote add origin https://github.com/finalslug/all-react.git
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git remote -v
+origin  https://github.com/finalslug/all-react.git (fetch)
+origin  https://github.com/finalslug/all-react.git (push)
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git push origin main
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/finalslug/all-react.git/'
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git config --global user.name "김동하"
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git config --global user.email "finalslug@naver.com"
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git remote -v
+origin  https://github.com/finalslug/all-react.git (fetch)
+origin  https://github.com/finalslug/all-react.git (push)
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (45/45), done.
+Writing objects: 100% (46/46), 372.17 KiB | 7.30 MiB/s, done.
+Total 46 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/finalslug/all-react.git
+ * [new branch]      main -> main
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git branch
+* main
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git branch feature/login
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git branch
+  feature/login
+* main
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (main)
+$ git checkout feature/login
+Switched to branch 'feature/login'
+
+Super@DESKTOP-L77BDUD MINGW64 /d/wecode/test/all-react (feature/login)
+$ git log
+commit 8420ede297ea2e7a3b1d38391645a3140f927fe2 (HEAD -> feature/login, origin/main, main)
+commit 8420ede297ea2e7a3b1d38391645a3140f927fe2 (HEAD -> feature/login, origin/main, main)
+Author: finalslug <finalslug@naver.com>
+Date:   Sat Jan 9 22:09:55 2021 +0900
+
+    Add: default setting done
+
+commit d3efeea7660662461bd50ccbaffe09b3c8690645
+Author: finalslug <finalslug@naver.com>
+Date:   Sat Jan 9 13:48:28 2021 +0900
